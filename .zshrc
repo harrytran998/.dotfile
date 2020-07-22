@@ -12,7 +12,7 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting docker-compose yarn)
 
 # @Git alias
 alias gulc='git reset --soft HEAD~1' #Undo last commit
-alias glod='git pull origin develop'
+alias gpod='git pull origin develop'
 # @Yarn Alias
 # alias y="yarn"
 # alias ya="yarn add"
