@@ -10,6 +10,10 @@ ZSH_THEME="avit"
 
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting docker-compose yarn)
 
+# @Git alias
+alias gulc='git reset --soft HEAD~1' #Undo last commit
+alias glod='git pull origin develop'
+# @Yarn Alias
 # alias y="yarn"
 # alias ya="yarn add"
 # alias yad="yarn add --dev"
@@ -42,6 +46,9 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting docker-compose yarn)
 # alias yw="yarn workspace"
 # alias yws="yarn workspaces"
 
+# @Docker Alias
+alias drmia='docker rmi $(docker images -a -q)'
+alias drma='docker rm $(docker container -a -q)'
 #alias dco='docker-compose'
 #alias dcb='docker-compose build'
 #alias dce='docker-compose exec'
@@ -59,13 +66,10 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting docker-compose yarn)
 #alias dcstart='docker-compose start'
 #alias dck='docker-compose kill'
 
+# @Zsh alias
+alias zshconfig='code ~/.zshrc'
 
 source $ZSH/oh-my-zsh.sh
-
-alias glod='git pull origin develop'
-alias zshconfig='code ~/.zshrc'
-alias drmia='docker rmi $(docker images -a -q)'
-alias drma='docker rm $(docker container -a -q)'
 
 export PATH="/usr/local/opt/node@12/bin:$PATH"
 export PATH="/usr/local/opt/node@13/bin:$PATH"
