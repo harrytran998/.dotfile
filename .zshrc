@@ -66,6 +66,18 @@ alias drma='docker rm $(docker container -a -q)'
 #alias dcstart='docker-compose start'
 #alias dck='docker-compose kill'
 
+# MacOS
+adddock--large() {
+  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+  killall Dock
+}
+
+# Maybe enter two times 
+adddock() {
+  defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'
+  killall Dock
+}
+
 # @Zsh alias
 alias zshconfig='code ~/.zshrc'
 
