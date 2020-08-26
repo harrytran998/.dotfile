@@ -8,9 +8,11 @@ export ZSH="/Users/quangnhat/.oh-my-zsh"
 ZSH_THEME="avit"
 
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting docker-compose yarn)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting docker-compose yarn commit-branch-prefix)
 
 # @Git alias
+alias grf='git checkout -f' #Revert modified files
+alias guf='git clean -fd' #Remove untracked files
 alias gulc='git reset --soft HEAD~1' #Undo last commit
 alias gpod='git pull origin develop'
 # @Yarn Alias
@@ -66,6 +68,11 @@ alias drma='docker rm $(docker container -a -q)'
 #alias dcstart='docker-compose start'
 #alias dck='docker-compose kill'
 
+# @Zsh alias
+alias zshconfig='code ~/.zshrc'
+
+### Other TIP
+
 # MacOS
 adddock--large() {
   defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
@@ -77,9 +84,6 @@ adddock() {
   defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'
   killall Dock
 }
-
-# @Zsh alias
-alias zshconfig='code ~/.zshrc'
 
 source $ZSH/oh-my-zsh.sh
 
