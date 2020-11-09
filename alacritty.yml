@@ -34,8 +34,8 @@ window:
   # Blank space added around the window in pixels. This padding is scaled
   # by DPI and the specified value is always added at both opposing sides.
   padding:
-    x: 0
-    y: 0
+    x: 10
+    y: 5
 
 # Spread additional padding evenly around the terminal content.
 #dynamic_padding: false
@@ -92,26 +92,26 @@ font:
   # Normal (roman) font face
   normal:
     # Font family
-    family: FuraMono Nerd Font
+    family: Hack
     # The `style` can be specified to pick a specific face.
     style: Regular
 
   # Bold font face
   bold:
     # Font family
-    family: FuraMono Nerd Font
+    family: Hack
     # The `style` can be specified to pick a specific face.
     style: Bold
   # Italic font face
   italic:
     # Font family
-    family: FuraMono Nerd Font
+    family: Hack
 
     # The `style` can be specified to pick a specific face.
     style: Italic
   bold_italic:
     # Font family
-    family: FuraMono Nerd Font
+    family: Hack
 
     # The `style` can be specified to pick a specific face.
     style: Bold Italic
@@ -146,20 +146,19 @@ font:
 # If `true`, bold text is drawn using the bright color variants.
 #draw_bold_text_with_bright_colors: false
 
-# Colors (Tomorrow Night Bright)
-#colors:
-# Default colors
-#primary:
-#  background: '#000000'
-#  foreground: '#eaeaea'
+# Colors - Default colors(Tomorrow Night)
+colors:
+  primary:
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
 
-# Bright and dim foreground colors
-#
-# The dimmed foreground color is calculated automatically if it is not present.
-# If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
-# is `false`, the normal foreground color will be used.
-#dim_foreground: '#9a9a9a'
-#bright_foreground: '#ffffff'
+    # Bright and dim foreground colors
+    #
+    # The dimmed foreground color is calculated automatically if it is not present.
+    # If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
+    # is `false`, the normal foreground color will be used.
+    dim_foreground: '#828482'
+    bright_foreground: '#eaeaea'
 
 # Cursor colors
 #
@@ -493,21 +492,21 @@ key_bindings:
   #- { key: Key0,   mods: Command,         action: ResetFontSize    }
   - { key: Equals, mods: Command, action: IncreaseFontSize }
   - { key: N, mods: Command, action: SpawnNewInstance }
+  - { key: K, mods: Command, action: ClearHistory }
+  - { key: K, mods: Command, chars: "\x0c" }
+  - { key: L, mods: Control, action: ClearLogNotice }
+  - { key: L, mods: Control, chars: "\x0c" }
+  - { key: Q, mods: Command, action: Quit }
+  - { key: W, mods: Command, action: Quit }
   #- { key: Add,    mods: Command,         action: IncreaseFontSize }
   #- { key: Minus,  mods: Command,         action: DecreaseFontSize }
-  # - { key: K, mods: Command, action: ClearHistory }
-  #- { key: K,      mods: Command,         chars: "\x0c"            }
   #- { key: V,      mods: Command,         action: Paste            }
   #- { key: C,      mods: Command,         action: Copy             }
   #- { key: H,      mods: Command,         action: Hide             }
   #- { key: M,      mods: Command,         action: Minimize         }
-  #- { key: Q,      mods: Command,         action: Quit             }
-  #- { key: W,      mods: Command,         action: Quit             }
   #- { key: F,      mods: Command|Control, action: ToggleFullscreen }
 #- { key: Paste,                    action: Paste                            }
 #- { key: Copy,                     action: Copy                             }
-#- { key: L,         mods: Control, action: ClearLogNotice                   }
-#- { key: L,         mods: Control, chars: "\x0c"                            }
 #- { key: PageUp,    mods: Shift,   action: ScrollPageUp,   mode: ~Alt       }
 #- { key: PageDown,  mods: Shift,   action: ScrollPageDown, mode: ~Alt       }
 #- { key: Home,      mods: Shift,   action: ScrollToTop,    mode: ~Alt       }
