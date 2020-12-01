@@ -2,19 +2,24 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/quangnhat/.oh-my-zsh"
+export ZSH="/Users/harrytran/.oh-my-zsh"
 
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="avit"
 
-
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting docker-compose yarn commit-branch-prefix)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting docker-compose yarn)
 
 # @Git alias
 alias grf='git checkout -f' #Revert modified files
 alias guf='git clean -fd' #Remove untracked files
 alias gulc='git reset --soft HEAD~1' #Undo last commit
 alias gpod='git pull origin develop'
+alias gdiffstat="git diff --stat | tail -n1"
+alias gaalldel="git status -s | grep -E '^ D' | cut -d ' ' -f3 | xargs git add --all"
 # @Yarn Alias
 # alias y="yarn"
 # alias ya="yarn add"
@@ -79,7 +84,7 @@ adddock--large() {
   killall Dock
 }
 
-# Maybe enter two times 
+# Maybe enter two times
 adddock() {
   defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="small-spacer-tile";}'
   killall Dock
@@ -87,7 +92,30 @@ adddock() {
 
 source $ZSH/oh-my-zsh.sh
 
-export PATH="/usr/local/opt/node@12/bin:$PATH"
-export PATH="/usr/local/opt/node@13/bin:$PATH"
-export PATH="/usr/local/opt/node@14/bin:$PATH"
-export PATH="/usr/local/opt/node/bin:$PATH"
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
+
+export PATH="/usr/local/opt/node@14/bin:$PATH"export PATH="/usr/local/opt/node@12/bin:$PATH"
