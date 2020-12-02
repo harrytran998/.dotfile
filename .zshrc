@@ -14,6 +14,7 @@ ZSH_THEME="avit"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting docker-compose yarn)
 
 # @Git alias
+alias gpo='git pull origin'
 alias grf='git checkout -f' #Revert modified files
 alias guf='git clean -fd' #Remove untracked files
 alias gulc='git reset --soft HEAD~1' #Undo last commit
