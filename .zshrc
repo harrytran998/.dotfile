@@ -21,6 +21,16 @@ alias gulc='git reset --soft HEAD~1' #Undo last commit
 alias gpod='git pull origin develop'
 alias gdiffstat="git diff --stat | tail -n1"
 alias gaalldel="git status -s | grep -E '^ D' | cut -d ' ' -f3 | xargs git add --all"
+
+# @Flutter Alias
+alias fl='flutter'
+alias flh='flutter --help'
+alias flr='flutter run'
+alias fldoc='flutter docker'
+alias flpg='flutter pub get '
+alias flc='flutter clean'
+alias fle='flutter emulators'
+
 # @Yarn Alias
 # alias y="yarn"
 # alias ya="yarn add"
