@@ -18,9 +18,15 @@ alias gpo='git pull origin'
 alias grf='git checkout -f' #Revert modified files
 alias guf='git clean -fd' #Remove untracked files
 alias gulc='git reset --soft HEAD~1' #Undo last commit
+
+## Khi undo commit quá đà, K biết fix ntn thì 
+## 1. git reflog
+## 2. Pick head muốn reset lại --> EX: git reset 'HEAD@{1}'
+
 alias gpod='git pull origin develop'
 alias gdiffstat="git diff --stat | tail -n1"
 alias gaalldel="git status -s | grep -E '^ D' | cut -d ' ' -f3 | xargs git add --all"
+alias gitconfig="code .git/config"
 
 # @Flutter Alias
 alias fl='flutter'
@@ -174,4 +180,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH="/usr/local/opt/node@14/bin:$PATH"export PATH="/usr/local/opt/node@12/bin:$PATH"
+export PATH="/usr/local/bin/node:$PATH"
+# export PATH="/usr/local/opt/node@12/bin:$PATH"
+export PATH="$PATH:/Users/harrytran/flutter/bin"
+export PATH="$PATH:/Users/harrytran/.pub-cache/bin"
