@@ -19,7 +19,7 @@ alias grf='git checkout -f' #Revert modified files
 alias guf='git clean -fd' #Remove untracked files
 alias gulc='git reset --soft HEAD~1' #Undo last commit
 
-## Khi undo commit quá đà, K biết fix ntn thì 
+## Khi undo commit quá đà, K biết fix ntn thì
 ## 1. git reflog
 ## 2. Pick head muốn reset lại --> EX: git reset 'HEAD@{1}'
 
@@ -27,6 +27,10 @@ alias gpod='git pull origin develop'
 alias gdiffstat="git diff --stat | tail -n1"
 alias gaalldel="git status -s | grep -E '^ D' | cut -d ' ' -f3 | xargs git add --all"
 alias gitconfig="code .git/config"
+alias gcmam="git commit --amend -m"
+# Skip CI for Gitlab CI
+alias ggpsc="ggp --push-option=ci.skip"
+alias ggfsc="ggf --push-option=ci.skip"
 
 # @Flutter Alias
 alias fl='flutter'
@@ -36,8 +40,12 @@ alias fldoc='flutter docker'
 alias flpg='flutter pub get '
 alias flc='flutter clean'
 alias fle='flutter emulators'
+alias entrade-x='flpg && make gen-code'
 
 ###-begin-flutter-completion-###
+
+alias logstr='exa -T --color=always -L=3 --git-ignore -I="node_modules/**"'
+
 
 if type complete &>/dev/null; then
   __flutter_completion() {
