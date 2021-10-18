@@ -1,0 +1,90 @@
+{
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "alt+c"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": "paste",
+      "keys": "alt+v"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    }
+  ],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+  "profiles": {
+    "defaults": {},
+    "list": [
+      {
+        "commandline": "powershell.exe",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell"
+      },
+      {
+        "commandline": "cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": true,
+        "name": "Command Prompt"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": true,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure",
+        "startingDirectory": "%USERPROFILE%"
+      },
+      {
+        "colorScheme": "Aura Theme",
+        "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+        "hidden": false,
+        "name": "Ubuntu",
+        "source": "Windows.Terminal.Wsl",
+        "startingDirectory": "\\\\wsl.localhost\\Ubuntu\\home\\god",
+        "tabTitle": "A Life Well Live"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "name": "Aura Theme",
+      "background": "#15141B",
+      "black": "#110F18",
+      "blue": "#61FFCA",
+      "brightBlack": "#4D4D4D",
+      "brightBlue": "#A277FF",
+      "brightCyan": "#61FFCA",
+      "brightGreen": "#A277FF",
+      "brightPurple": "#A277FF",
+      "brightRed": "#FFCA85",
+      "brightWhite": "#EDECEE",
+      "brightYellow": "#FFCA85",
+      "cursorColor": "#A277FF",
+      "cyan": "#EDECEE",
+      "foreground": "#EDECEE",
+      "green": "#61FFCA",
+      "purple": "#A277FF",
+      "red": "#FF6767",
+      "selectionBackground": "#A394F0",
+      "white": "#EDECEE",
+      "yellow": "#FFCA85"
+    }
+  ],
+  "startOnUserLogin": false
+}
