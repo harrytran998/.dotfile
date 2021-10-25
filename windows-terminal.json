@@ -23,7 +23,35 @@
         "splitMode": "duplicate"
       },
       "keys": "alt+shift+d"
-    }
+    },
+    { "command": "closeOtherTabs", "keys": "alt+win+t" },
+    { "command": "newTab", "keys": "alt+n" },
+    { "command": { "action": "switchToTab", "index": 0 }, "keys": "alt+1" },
+    { "command": { "action": "switchToTab", "index": 1 }, "keys": "alt+2" },
+    { "command": { "action": "switchToTab", "index": 2 }, "keys": "alt+3" },
+    { "command": { "action": "switchToTab", "index": 3 }, "keys": "alt+4" },
+    { "command": { "action": "switchToTab", "index": 4 }, "keys": "alt+5" },
+    { "command": { "action": "switchToTab", "index": 5 }, "keys": "alt+6" },
+    { "command": { "action": "switchToTab", "index": 6 }, "keys": "alt+7" },
+    { "command": { "action": "switchToTab", "index": 7 }, "keys": "alt+8" },
+    { "command": { "action": "switchToTab", "index": 8 }, "keys": "alt+9" },
+    { "command": "closePane", "keys": "alt+w" },
+    // Split panel
+    {
+      "command": { "action": "splitPane", "split": "horizontal", "splitMode": "duplicate" },
+      "keys": "alt+shift+-"
+    },
+    {
+      "command": { "action": "splitPane", "split": "vertical", "splitMode": "duplicate" },
+      "keys": "alt+shift+|"
+    },
+    // Focus tab pane
+    { "command": { "action": "moveFocus", "direction": "down" }, "keys": "alt+shift+down" },
+    { "command": { "action": "moveFocus", "direction": "left" }, "keys": "alt+shift+left" },
+    { "command": { "action": "moveFocus", "direction": "right" }, "keys": "alt+shift+right" },
+    { "command": { "action": "moveFocus", "direction": "up" }, "keys": "alt+shift+up" },
+    { "command": { "action": "moveFocus", "direction": "previous" }, "keys": "ctrl+alt+left" },
+    { "keys": "alt+shift+p", "command": { "action": "globalSummon" } }
   ],
   "copyFormatting": "none",
   "copyOnSelect": false,
