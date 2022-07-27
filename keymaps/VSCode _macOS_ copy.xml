@@ -3,4 +3,10 @@
     <keyboard-shortcut first-keystroke="meta back_slash" />
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
+  <action id="RecentFiles" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="UsageFiltering.ReadAccess" />
 </keymap>
