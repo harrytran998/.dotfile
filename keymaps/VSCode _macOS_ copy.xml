@@ -1,0 +1,6 @@
+<keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="Flutter.Toolbar.ReloadAction">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
+  </action>
+</keymap>
