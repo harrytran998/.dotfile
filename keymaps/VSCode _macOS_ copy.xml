@@ -1,0 +1,6 @@
+<keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="meta alt t" />
+  </action>
+  <action id="SurroundWith" />
+</keymap>
