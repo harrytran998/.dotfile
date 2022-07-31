@@ -1,6 +1,12 @@
 <keymap version="1" name="VSCode (macOS) copy" parent="VSCode OSX">
-  <action id="CloseAllEditorsButActive">
-    <keyboard-shortcut first-keystroke="meta alt t" />
+  <action id="Flutter.Toolbar.ReloadAction">
+    <keyboard-shortcut first-keystroke="meta back_slash" />
+    <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
-  <action id="SurroundWith" />
+  <action id="RecentFiles" />
+  <action id="RenameElement">
+    <keyboard-shortcut first-keystroke="f2" />
+    <keyboard-shortcut first-keystroke="ctrl r" />
+  </action>
+  <action id="UsageFiltering.ReadAccess" />
 </keymap>

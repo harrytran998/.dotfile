@@ -1,0 +1,1061 @@
+<application>
+  <component name="SettingsSyncPlugins">
+    <option name="plugins">
+      <map>
+        <entry key="AngularJS">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="AntSupport">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.properties" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="Coverage">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.coverage" />
+                  <option value="com.intellij.modules.java" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="Dart">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="Docker">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="GlassFish">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.javaee" />
+                  <option value="com.intellij.javaee.app.servers.integration" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="HtmlTools">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="com.intellij.modules.xml" />
+                  <option value="com.intellij.platform.images" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="JBoss">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.javaee" />
+                  <option value="com.intellij.javaee.app.servers.integration" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="JSIntentionPowerPack">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="JUnit">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.java" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="JavaScript">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.css" />
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="JavaScriptDebugger">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="Lombook Plugin">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.modules.lang" />
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="NodeJS">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="JavaScriptDebugger" />
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="Refactor-X">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="TestNG-J">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="Tomcat">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.javaee" />
+                  <option value="com.intellij.javaee.app.servers.integration" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="W3Validators">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="XPathView">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="XSLT-Debugger">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="XPathView" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.chrisrm.idea.MaterialThemeUI">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.aop">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.beanValidation">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.cdi">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.css">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="com.intellij.modules.xml" />
+                  <option value="com.intellij.platform.images" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.database">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="com.intellij.platform.images" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.diagram">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.freemarker">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.gradle">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.externalSystem" />
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.grpc">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.hibernate">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.database" />
+                  <option value="com.intellij.javaee" />
+                  <option value="com.intellij.javaee.jpa" />
+                  <option value="com.intellij.persistence" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.jakarta.nosql">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.java-i18n">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.modules.platform" />
+                  <option value="com.intellij.properties" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.javaee">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.javaee.app.servers.integration">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.javaee.el">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.javaee.extensions">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.javaee" />
+                  <option value="com.intellij.microservices.jvm" />
+                  <option value="com.intellij.modules.microservices" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.javaee.gradle">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.javaee.jpa">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.javaee.web">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.javaee.webSocket">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.jsp">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.javaee.el" />
+                  <option value="com.intellij.modules.jsp.base" />
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.laf.macos">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.micronaut">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.microservices.jvm">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.microservices.ui">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.persistence">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.plugins.eclipsekeymap">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.plugins.netbeanskeymap">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.plugins.visualstudiokeymap">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.plugins.vscodekeymap">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.quarkus">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.reactivestreams">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.boot">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.boot.initializr">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.cloud">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.data">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.integration">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.messaging">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.mvc">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.security">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.spring.websocket">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.swagger">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.thymeleaf">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.uiDesigner">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.java-i18n" />
+                  <option value="com.intellij.properties" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.intellij.velocity">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="com.intellij.properties" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.performancePlugin.gradle">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.performancePlugin.maven">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.performancePlugin.workspaceModel">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.javaee.app.servers.integration" />
+                  <option value="com.intellij.modules.lang" />
+                  <option value="com.jetbrains.performancePlugin" />
+                  <option value="com.jetbrains.performancePlugin.gradle" />
+                  <option value="com.jetbrains.performancePlugin.maven" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.plugins.webDeployment">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.restClient">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.restWebServices">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.jetbrains.space">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="com.mallowigi">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="cucumber-groovy">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="cucumber-java" />
+                  <option value="gherkin" />
+                  <option value="org.intellij.groovy" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="cucumber-java">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JUnit" />
+                  <option value="com.intellij.modules.java" />
+                  <option value="gherkin" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="gherkin">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.xml" />
+                  <option value="org.intellij.intelliLang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="idea.plugin.protoeditor">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="intellij.ktor">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.microservices.jvm" />
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.modules.platform" />
+                  <option value="com.intellij.modules.ultimate" />
+                  <option value="com.intellij.properties" />
+                  <option value="org.intellij.plugins.markdown" />
+                  <option value="org.jetbrains.kotlin" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="io.flutter">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="Dart" />
+                  <option value="Git4Idea" />
+                  <option value="com.intellij.modules.coverage" />
+                  <option value="com.intellij.modules.lang" />
+                  <option value="com.intellij.modules.platform" />
+                  <option value="com.intellij.modules.xdebugger" />
+                  <option value="org.jetbrains.plugins.yaml" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="name.kropp.intellij.makefile">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.intellij.groovy">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.intellij.intelliLang">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.intellij.qodana">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.android">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JUnit" />
+                  <option value="com.android.tools.idea.smali" />
+                  <option value="com.intellij.gradle" />
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.modules.java-capable" />
+                  <option value="com.intellij.platform.images" />
+                  <option value="com.intellij.properties" />
+                  <option value="intellij.webp" />
+                  <option value="org.intellij.groovy" />
+                  <option value="org.intellij.intelliLang" />
+                  <option value="org.jetbrains.idea.gradle.dsl" />
+                  <option value="org.jetbrains.kotlin" />
+                  <option value="org.jetbrains.plugins.gradle" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.debugger.streams">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.java" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.idea.gradle.ext">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
+        <entry key="org.jetbrains.idea.maven">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                  <option value="com.intellij.properties" />
+                  <option value="org.jetbrains.idea.maven.model" />
+                  <option value="org.jetbrains.idea.reposearch" />
+                </set>
+              </option>
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.idea.maven.ext">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
+        <entry key="org.jetbrains.java.decompiler">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.kotlin">
+          <value>
+            <PluginData />
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.gradle">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.gradle" />
+                  <option value="com.intellij.java" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.gradle.dependency.updater">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.gradle" />
+                  <option value="org.jetbrains.idea.gradle.dsl" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.gradle.maven">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="org.intellij.groovy" />
+                  <option value="org.jetbrains.idea.maven" />
+                  <option value="org.jetbrains.idea.reposearch" />
+                  <option value="org.jetbrains.plugins.gradle" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.haml">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.javaFX">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.modules.java" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.less">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.remote-run">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.sass">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.css" />
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.plugins.stylus">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="com.intellij.css" />
+                  <option value="com.intellij.modules.lang" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="org.jetbrains.security.package-checker">
+          <value>
+            <PluginData>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="spy-js">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="JavaScriptDebugger" />
+                  <option value="com.intellij.modules.xml" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+        <entry key="tslint">
+          <value>
+            <PluginData>
+              <option name="dependencies">
+                <set>
+                  <option value="JavaScript" />
+                  <option value="com.intellij.modules.platform" />
+                </set>
+              </option>
+              <option name="enabled" value="false" />
+            </PluginData>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
