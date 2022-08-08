@@ -3,6 +3,10 @@
     <keyboard-shortcut first-keystroke="meta back_slash" />
     <keyboard-shortcut first-keystroke="shift meta s" />
   </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="NewScratchFile" />
   <action id="RecentFiles" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="f2" />
