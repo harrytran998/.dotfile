@@ -4,6 +4,7 @@
       <w>encapital</w>
       <w>intraday</w>
       <w>mins</w>
+      <w>ohlc</w>
       <w>persistor</w>
     </words>
   </component>
