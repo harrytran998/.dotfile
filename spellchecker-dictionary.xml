@@ -7,6 +7,7 @@
       <w>mins</w>
       <w>ohlc</w>
       <w>persistor</w>
+      <w>poolable</w>
       <w>vnindex</w>
     </words>
   </component>
