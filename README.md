@@ -15,17 +15,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
  
  `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
 
-- Download zsh-yarn-autocompletions by
 
- `git clone https://github.com/g-plane/zsh-yarn-autocompletions.git $ZSH_CUSTOM/plugins/zsh-yarn-autocompletions`
- 
  - Open the .zshrc file to add 3 plugins which dowloaded
  
  `nano ~/.zshrc` then finding the `plugins=(git)` line
  
  - Append 3 plugins above to  `plugins()` like this 
  
- `plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-yarn-autocompletions)`
+ `plugins=(git zsh-autosuggestions zsh-syntax-highlighting yarn)`
  
  - Reopen terminal
 
