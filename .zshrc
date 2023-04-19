@@ -142,6 +142,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+function execr() {
+  find . -maxdepth 1 -type d \( ! -name . \) -exec bash -c "cd '{}' && $1" \;
+}
+
 export PATH="/usr/local/bin/node:$PATH"
 # export PATH="/usr/local/opt/node@12/bin:$PATH"
 export PATH="$PATH:/Users/harrytran/flutter/bin"
