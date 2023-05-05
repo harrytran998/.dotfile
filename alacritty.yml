@@ -1,8 +1,10 @@
+# Window title
+
 window:
   padding:
     x: 10
     y: 5
-  title: Bo may can tat
+  title: Im a god
   opacity: 0.9
 
 # Font configuration
@@ -70,8 +72,8 @@ colors:
     white: '#e6e6e6'
 
 cursor:
-  shape: Beam
-  blinking: On
+  thickness: 0.5
+  blink_interval: 500
 
 shell:
   program: /bin/zsh
