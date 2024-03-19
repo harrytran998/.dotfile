@@ -7,12 +7,11 @@
     "list.inactiveSelectionForeground": "#42A5F5"
   },
   "workbench.editor.enablePreview": false,
-  "workbench.activityBar.visible": false,
   "workbench.statusBar.visible": true,
   "workbench.sideBar.location": "left",
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.editor.showTabs": true,
+  "workbench.editor.showTabs": "multiple",
   "window.zoomLevel": 0,
   "window.nativeTabs": false,
   "explorer.confirmDelete": false,
@@ -43,14 +42,14 @@
   "editor.fontFamily": "Hack",
   "editor.semanticHighlighting.enabled": "configuredByTheme",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
-    "source.organizeImports": false,
-    "source.addMissingImports": true
+    "source.fixAll": "explicit",
+    "source.organizeImports": "never",
+    "source.addMissingImports": "explicit"
   },
   "editor.minimap.enabled": false,
   "editor.minimap.maxColumn": 100,
   "editor.minimap.renderCharacters": false,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.mouseWheelScrollSensitivity": 0.75,
   "editor.quickSuggestions": {
     "other": true,
@@ -273,6 +272,10 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
-    "editor.wordBasedSuggestions": false
+    "editor.wordBasedSuggestions": "off"
   },
+  "workbench.activityBar.location": "hidden",
+  "cSpell.words": [
+    "nmcli"
+  ],
 }
