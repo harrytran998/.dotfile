@@ -12,12 +12,17 @@ plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 curl -fsSL https://moonrepo.dev/install/proto.sh | bash
 
 
-# Setup git aliases
+# Setup git
+git config --global init.defaultBranch main
+web.browser google-chrome
+core.whitespace fix,-indent-with-non-tab,trailing-space,cr-at-eol
+core.pager delta
 git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 git config --global pull.rebase true
+
 
 # @Git alias zsh
 alias gpo='git pull origin'
