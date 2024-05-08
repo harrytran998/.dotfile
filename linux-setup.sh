@@ -1,4 +1,4 @@
-sudo apt install build-essential pkg-config zsh -y
+sudo apt install libfuse2 build-essential pkg-config zsh -y
 
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
