@@ -14,9 +14,9 @@ curl -fsSL https://moonrepo.dev/install/proto.sh | bash
 
 # Setup git
 git config --global init.defaultBranch main
-web.browser google-chrome
-core.whitespace fix,-indent-with-non-tab,trailing-space,cr-at-eol
-core.pager delta
+git config --global web.browser google-chrome
+git config --global core.whitespace fix,-indent-with-non-tab,trailing-space,cr-at-eol
+git config --global core.pager delta
 git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
