@@ -17,12 +17,16 @@ git config --global init.defaultBranch main
 git config --global web.browser google-chrome
 git config --global core.whitespace fix,-indent-with-non-tab,trailing-space,cr-at-eol
 git config --global core.pager delta
+git config --global core.ignorecase false
 git config --global alias.co checkout
 git config --global alias.br branch
 git config --global alias.ci commit
 git config --global alias.st status
 git config --global pull.rebase true
 
+// Need to change to company name here
+git config --global includeIf.gitdir/i:~/Desktop/Code/COMPANY_NAME.path ~/Desktop/Code/COMPANY_NAME/.gitconfig
+git config --global includeIf.gitdir/i:~/Desktop/Code/Me.path ~/Desktop/Code/Me/.gitconfig
 
 # @Git alias zsh
 alias gpo='git pull origin'
