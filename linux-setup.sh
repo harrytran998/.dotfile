@@ -1,4 +1,4 @@
-sudo apt install libfuse2 build-essential pkg-config zsh tmux cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 -y
+sudo apt install libfuse2 build-essential pkg-config zsh tmux cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 git unzip gzip xz-utils -y
 
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
