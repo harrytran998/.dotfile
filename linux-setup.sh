@@ -7,6 +7,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugi
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
 sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc
+sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="avit"' ~/.zshrc
+
+source ~/.zshrc
 
 # A version manager for all your favorite languages and tools. A unified toolchain.
 curl -fsSL https://moonrepo.dev/install/proto.sh | bash
