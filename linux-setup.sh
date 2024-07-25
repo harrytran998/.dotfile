@@ -6,7 +6,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
+sed -i 's/plugins=(git)/plugins=(git zsh-autosuggestions zsh-syntax-highlighting)/' ~/.zshrc
 
 # A version manager for all your favorite languages and tools. A unified toolchain.
 curl -fsSL https://moonrepo.dev/install/proto.sh | bash
@@ -29,10 +29,10 @@ git config --global includeIf.gitdir/i:~/Desktop/Code/COMPANY_NAME.path ~/Deskto
 git config --global includeIf.gitdir/i:~/Desktop/Code/Me.path ~/Desktop/Code/Me/.gitconfig
 
 # @Git alias zsh
-alias gpo='git pull origin'
-alias grf='git checkout -f' #Revert modified files
-alias guf='git clean -fd' #Remove untracked files
-alias gulc='git reset --soft HEAD~1' #Undo last commit
+echo "alias gpo='git pull origin'" >> ~/.zshrc
+echo "alias grf='git checkout -f' #Revert modified files" >> ~/.zshrc
+echo "alias guf='git clean -fd' #Remove untracked files" >> ~/.zshrc
+echo "alias gulc='git reset --soft HEAD~1' #Undo last commit" >> ~/.zshrc
 
 
 proto install bun
@@ -49,6 +49,6 @@ proto install moon
 
 # Add to .zshrc
 
-function execr() {
+echo "function execr() {
   find . -maxdepth 1 -type d \( ! -name . \) -exec bash -c "cd '{}' && $1" \;
-}
+}" >> ~/.zshrc
