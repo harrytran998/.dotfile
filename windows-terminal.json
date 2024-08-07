@@ -77,6 +77,14 @@
                     "size": 12.0
                 }
             },
+      {
+                "guid": "{00000000-0000-0000-ba54-000000000002}",
+                "commandline":"%USERPROFILE%/AppData/Local/Programs/Git/bin/bash.exe -l -i",
+                "hidden": false,
+                "icon": "%USERPROFILE%/AppData/Local/Programs/Git/mingw64/share/git/git-for-windows.ico",
+                "name": "Git",
+                "startingDirectory": "%USERPROFILE%"
+            }
     ]
   },
   "schemes": 
