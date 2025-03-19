@@ -1,4 +1,4 @@
-sudo apt install libfuse2 build-essential pkg-config zsh tmux cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 git unzip gzip xz-utils -y
+sudo apt install curl libfuse2 build-essential pkg-config zsh tmux cmake pkg-config libfreetype6-dev libfontconfig1-dev libxcb-xfixes0-dev libxkbcommon-dev python3 git unzip gzip xz-utils -y
 
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -37,6 +37,7 @@ echo "alias grf='git checkout -f' #Revert modified files" >> ~/.zshrc
 echo "alias guf='git clean -fd' #Remove untracked files" >> ~/.zshrc
 echo "alias gulc='git reset --soft HEAD~1' #Undo last commit" >> ~/.zshrc
 
+bash <(curl -fsSL https://moonrepo.dev/install/proto.sh) --yes
 
 proto install bun
 proto install node lts
