@@ -1,6 +1,6 @@
 {
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.colorTheme": "Catppuccin Macchiato",
   "workbench.colorCustomizations": {
     "tab.activeBorder": "#42A5F5",
     "list.activeSelectionBackground": "#42A5F5",
