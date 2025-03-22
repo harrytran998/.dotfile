@@ -1,0 +1,4 @@
+theme = catppuccin-frappe
+
+keybind = cmd+\=new_split:right
+keybind = cmd+_=new_split:down
